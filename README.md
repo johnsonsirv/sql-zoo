@@ -1,4 +1,4 @@
-# Working with SQL
+# Working with SQL(Structured Query Language)
 [SQL Zoo](http://sqlzoo.net/wiki/Main_Page) is one of the few resources online that actually lets you build and run queries against existing tables. 
 Each section will show you a table and then have you run queries against it to answer specific questions. 
 
