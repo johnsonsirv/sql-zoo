@@ -90,3 +90,6 @@ WHERE building IS NULL;
 
 SELECT name, role FROM employees
 WHERE building IS NULL;
+
+SELECT role, avg(years_employed) FROM employees
+group by role;
