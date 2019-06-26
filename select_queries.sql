@@ -76,3 +76,8 @@ inner join boxoffice on movies.id = boxoffice.movie_id;
 SELECT id, title, domestic_sales, international_sales FROM movies
 inner join boxoffice on movies.id = boxoffice.movie_id
 order by rating desc
+
+SELECT DISTINCT building_name, role 
+FROM buildings 
+  LEFT JOIN employees
+    ON building_name = building;
