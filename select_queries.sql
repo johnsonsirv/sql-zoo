@@ -68,3 +68,11 @@ SELECT winner, subject
  ORDER BY 
   CASE WHEN subject IN ('Physics','Chemistry') THEN 1 ELSE 0 END,
    subject, winner
+
+
+  SELECT id, title, domestic_sales, international_sales FROM movies
+inner join boxoffice on movies.id = boxoffice.movie_id;
+
+SELECT id, title, domestic_sales, international_sales FROM movies
+inner join boxoffice on movies.id = boxoffice.movie_id
+order by rating desc
